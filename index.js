@@ -18,7 +18,7 @@ const questions = [
     {
         type: 'list',
         message: 'What kind of license should your project have?',
-        choices: ['None', 'MIT', 'Apache', 'BSD', 'GNU_GPL_v3'],
+        choices: ['None', 'MIT', 'Apache', 'BSD', 'IBM'],
         name: 'license',
     },
     {
@@ -58,7 +58,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err, data) => {
-        console.log('the document has been created');
+        console.log('The Professional README file has been created in "generatedFile" folder.');
     })
 }
 
@@ -70,7 +70,7 @@ function init() {
         .then((answers) => {
             //   answers need to be used to generate the markdown. 
             
-            writeToFile('README.md', generateMarkdown(answers))
+            writeToFile('./generatedFile/README.md', generateMarkdown(answers))
         });
 }
 
