@@ -11,7 +11,7 @@
 
 ## Description
 
-The purpose of this project is to create a professional README markdown file generator. So, developers can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+The project aims to create a command-line application using the Inquirer package (version 8.2.4) to dynamically generate a professional README.md file based on user input. This allows developers to effortlessly create README files, freeing up more time for actual project work. The application was developed with JavaScript/Node.js and utilizes Inquirer as an npm package. 
 
 
 ## Code Languages and Runtime
@@ -25,7 +25,8 @@ In order to be able to run the applicaton you are required to do the following i
 
 - Install Nodjs on your computer by downloading it from their website here, https://nodejs.org/en.
 - If you are not sure how to install it. Click here for the instruction, https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs.
-- Install npm (Node Package Manager) inside the application's folder by typing the following code in the command line:
+- Download/ clone the GitHub repo 
+- Install npm (Node Package Manager) inside the repo by typing the following code in the command line:
 ```bash
  $ npm install
  ```
@@ -34,22 +35,15 @@ In order to be able to run the applicaton you are required to do the following i
 ## Usage
 
 To use the application,
-- Watch the guide video by clicking the link here, (video link)
--
-
-Preview the homepage:
-![Work Day Scheduler Screenshot](./assets/screenshot/work-day-scheduler.png)
+- Watch the guide video by clicking the link here: https://drive.google.com/file/d/1MHTbz1pqdGKrkB4UYTTfOhWUTo2Ho4ha/view
 
 
-## License
-
-The MIT License
-
-ler.png)
+Preview Generated README File:
+![Generated README File Screenshot](./screenshot/pro-readme-generator.png)
 
 
 ## License
 
-The MIT License
+This project is under the MIT License.
 
 
