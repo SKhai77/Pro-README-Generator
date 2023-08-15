@@ -35,7 +35,7 @@ In order to be able to run the applicaton you are required to do the following i
 ## Usage
 
 To use the application,
-- Watch the guide video by clicking the link here: https://drive.google.com/file/d/1MHTbz1pqdGKrkB4UYTTfOhWUTo2Ho4ha/view
+- Watch the guide video by [clicking the link here.](https://drive.google.com/file/d/1MHTbz1pqdGKrkB4UYTTfOhWUTo2Ho4ha/view)
 
 
 Preview Generated README File:
